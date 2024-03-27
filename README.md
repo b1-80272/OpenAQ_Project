@@ -9,7 +9,7 @@ I used data made available by [OpenAQ](https://openaq.org/) .
 
 
 ## Architecture
-![PipeLine Architecture](https://github.com/b1-80272/OpenAQ_India/blob/main/images/OpenAQ_Architecture.png)
+![PipeLine Architecture](https://github.com/b1-80272/OpenAQ_Project/blob/main/images/OpenAQ_Architecture.png)
 
 
 ## Development 
@@ -47,7 +47,7 @@ Data available via api URL -
 
 Here, there are 2 dimensions - city(location) and parameter with a central dimension latest(readings). So, I used a Star schema to model the data. 
 
-![Data Modelling - Star Schema](https://github.com/b1-80272/OpenAQ_India/blob/main/images/OpenAQ_Star_Schema.png)
+![Data Modelling - Star Schema](https://github.com/b1-80272/OpenAQ_Project/blob/main/images/OpenAQ_Star_Schema.png)
 
 ### 2. PySpark ETL 
 
